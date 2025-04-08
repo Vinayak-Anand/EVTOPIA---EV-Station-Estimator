@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"name": "optimal_sites",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::32643" } },
+"features": [
+{ "type": "Feature", "properties": { "score": 25 }, "geometry": { "type": "Point", "coordinates": [ 713815.002071544411592, 3158949.290010484401137 ] } },
+{ "type": "Feature", "properties": { "score": 25 }, "geometry": { "type": "Point", "coordinates": [ 713815.002071544411592, 3159199.290010484401137 ] } }
+]
+}
