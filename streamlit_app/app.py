@@ -25,7 +25,7 @@ optimal_sites = gpd.read_file("../output/optimal_sites.geojson").to_crs(epsg=432
 points_gdf = points_gdf.to_crs(epsg=4326)
 
 # Load vector layers
-layer_path = "/home/winvin/Documents/geota_final_layers"
+layer_path = "../geota_final_layers"
 layer_files = {
     "Usable Area": "useable_area.gpkg",
     "Existing Ev Stations": "ev_stations.gpkg",
