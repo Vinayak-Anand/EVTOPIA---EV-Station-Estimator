@@ -6,8 +6,8 @@ from tqdm import tqdm
 
 # Set paths
 # Set paths
-layer_path = "../geota_final_layers"
-output_path = "../ev_station_estimator/output"
+layer_path = "geota_final_layers"
+output_path = "ev_station_estimator/output"
 os.makedirs(output_path, exist_ok=True)
 
 

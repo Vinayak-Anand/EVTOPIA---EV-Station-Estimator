@@ -18,10 +18,10 @@ st.set_page_config(layout="wide")
 st.title("🚗 EV Charging Station Estimator - South Delhi")
 
 # === Load Data ===
-points_df = pd.read_csv("../output/scored_points.csv")
+points_df = pd.read_csv("output/scored_points.csv")
 points_df["geometry"] = points_df["geometry"].apply(loads)
 points_gdf = gpd.GeoDataFrame(points_df, geometry="geometry", crs="EPSG:32643")
-optimal_sites = gpd.read_file("../output/optimal_sites.geojson").to_crs(epsg=4326)
+optimal_sites = gpd.read_file("output/optimal_sites.geojson").to_crs(epsg=4326)
 points_gdf = points_gdf.to_crs(epsg=4326)
 
 # Load vector layers
