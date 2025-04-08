@@ -6,3 +6,4 @@ rasterio
 folium
 streamlit-folium
 matplotlib
+geopy
